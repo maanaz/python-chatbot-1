@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["My pleasure", "You're Welcome"],
+            "context": [""]
+        },
+        {
+            "tag": "microprocessor_definition",
+            "patterns": ["What is a microprocessor?", "Define microprocessor", "Explain microprocessor"],
+            "responses": ["A microprocessor is an integrated circuit that contains the functions of a central processing unit (CPU) of a computer."],
+            "context": [""]
+        },
+        {
+            "tag": "microprocessor_components",
+            "patterns": ["What are the main components of a microprocessor?", "List the components of a microprocessor", "Explain the parts of a microprocessor"],
+            "responses": ["The main components of a microprocessor include the arithmetic logic unit (ALU), control unit (CU), and registers."],
+            "context": [""]
+        },
+        {
+            "tag": "alu_function",
+            "patterns": ["What is the function of the ALU?", "Explain ALU", "What does the ALU do?"],
+            "responses": ["The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations."],
+            "context": [""]
+        },
+        {
+            "tag": "instruction_set",
+            "patterns": ["What is an instruction set?", "Define instruction set", "Explain instruction set"],
+            "responses": ["An instruction set is a group of commands for a CPU in machine language."],
+            "context": [""]
+        },
+        {
+            "tag": "registers",
+            "patterns": ["What is a register in a microprocessor?", "Explain register in CPU", "Define register"],
+            "responses": ["A register is a small amount of storage available directly within the CPU used to quickly accept, store, and transfer data and instructions."],
+            "context": [""]
+        },
+        {
+            "tag": "risc_vs_cisc",
+            "patterns": ["What is the difference between RISC and CISC architectures?", "Compare RISC and CISC", "Explain RISC and CISC"],
+            "responses": ["RISC (Reduced Instruction Set Computer) uses a small, highly optimized set of instructions, whereas CISC (Complex Instruction Set Computer) uses a more complex set of instructions."],
+            "context": [""]
+        },
+        {
+            "tag": "microcontroller_definition",
+            "patterns": ["What is a microcontroller?", "Define microcontroller", "Explain microcontroller"],
+            "responses": ["A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system."],
+            "context": [""]
+        },
+        {
+            "tag": "microcontroller_vs_microprocessor",
+            "patterns": ["What is the difference between a microcontroller and a microprocessor?", "Compare microcontroller and microprocessor", "Microcontroller vs microprocessor"],
+            "responses": ["A microprocessor is a central processing unit used in personal computers, whereas a microcontroller is an integrated circuit designed for specific control applications in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "applications_microcontrollers",
+            "patterns": ["What are the applications of microcontrollers?", "Where are microcontrollers used?", "List some uses of microcontrollers"],
+            "responses": ["Microcontrollers are used in various applications including automotive systems, medical devices, home appliances, and industrial automation."],
+            "context": [""]
+        }
+    ]
+}
